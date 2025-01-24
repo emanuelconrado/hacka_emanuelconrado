@@ -30,15 +30,15 @@ def generate_launch_description():
     )
 
 #Initialize arguments
-    calculator_file = LaunchConfiguration('hacka_emanuelconrado_file')
+    manager_node_file = LaunchConfiguration('hacka_emanuelconrado_file')
 
-    calculator_lifecycle_node = LifecycleNode(
+    manager_node_lifecycle_node = LifecycleNode(
         package='hacka_emanuelconrado',
         executable='manager_node',
-        name='manage_node',
+        name='manager_node',
         namespace='',
         output='screen',
-        parameters=[calculator_file],
+        parameters=[manager_node_file],
         remappings=[
         ]
     )
@@ -49,10 +49,10 @@ def generate_launch_description():
 #Right after the node starts, make it take the 'configure' transition.
         RegisterEventHandler(
             OnProcessStart(
-                target_action=calculator_lifecycle_node,
+                target_action=manager_node_lifecycle_node,
                 on_start=[
                     EmitEvent(event=ChangeState(
-                        lifecycle_node_matcher=matches_action(calculator_lifecycle_node),
+                        lifecycle_node_matcher=matches_action(manager_node_lifecycle_node),
                         transition_id=lifecycle_msgs.msg.Transition.TRANSITION_CONFIGURE,
                     )),
                 ],
@@ -63,12 +63,12 @@ def generate_launch_description():
     event_handlers.append(
         RegisterEventHandler(
             OnStateTransition(
-                target_lifecycle_node=calculator_lifecycle_node,
+                target_lifecycle_node=manager_node_lifecycle_node,
                 start_state='configuring',
                 goal_state='inactive',
                 entities=[
                     EmitEvent(event=ChangeState(
-                        lifecycle_node_matcher=matches_action(calculator_lifecycle_node),
+                        lifecycle_node_matcher=matches_action(manager_node_lifecycle_node),
                         transition_id=lifecycle_msgs.msg.Transition.TRANSITION_ACTIVATE,
                     )),
                 ],
@@ -83,7 +83,7 @@ def generate_launch_description():
         ld.add_action(argument)
 
 #Add client node
-    ld.add_action(calculator_lifecycle_node)
+    ld.add_action(manager_node_lifecycle_node)
 
 #Add event handlers
     for event_handler in event_handlers:

@@ -4,6 +4,8 @@
 #include <memory>
 #include <mutex>
 #include <string>
+#include <chrono>
+#include <thread>
 
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_lifecycle/lifecycle_node.hpp"
@@ -12,6 +14,8 @@
 #include <std_msgs/msg/bool.hpp>
 #include <geometry_msgs/msg/pose.hpp>
 #include <std_srvs/srv/trigger.hpp>
+
+using namespace std::chrono;
 
 using CallbackReturn = rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn;
 
@@ -38,46 +42,45 @@ private:
   void configPubSub();
   void configTimers();
   void configServices();
+  void configClients();
 
-//Clients-------
+  //func
 
-  rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_takeoff_;
-  rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_land_;
-  rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_arm_;
-  rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_disarm_;
+  void stateTriggerRequest(const std::shared_ptr<std_srvs::srv::Trigger::Request> request, std:: shared_ptr<std_srvs::srv::Trigger::Response> response);
 
-//Publishers
-
-  rclcpp_lifecycle::LifecyclePublisher<geometry_msgs::msg::Pose>::SharedPtr pub_goto_;
-  rclcpp_lifecycle::LifecyclePublisher<geometry_msgs::msg::Pose>::SharedPtr pub_goto_relative_; 
-  rclcpp_lifecycle::LifecyclePublisher<std_msgs::msg::Bool>::SharedPtr pub_have_goal_;
-
-//Subscribers
-
-  rclcpp::Subscription<std_msgs::msg::Bool>::ConstSharedPtr sub_have_goal_;
-  rclcpp::Subscription<nav_msgs::msg::Odometry>::ConstSharedPtr sub_odometry_;
-
-  
-//Timers
-
-  rclcpp::TimerBase::SharedPtr tmr_op_goto_;
-  
-//servs
-
-
-//Funcs
-
-  void tmrOpGoto();
   void subOpHaveGoal(std_msgs::msg::Bool have_goal);
-  void subOpOdometry(nav_msgs::msg::Odometry odometry);
 
-//Variables
+  void takeoff();
+  void getNextPose();
+  void goingTo();
 
-  bool have_goal_;
-  geometry_msgs::msg::Pose pose_;
+  //Variables
+
   double _rate_state_machine_;
   int _waypoints_qty_points_;
   std::vector<double> _waypoints_points_;
+  geometry_msgs::msg::Pose goto_pos_;
+
+  bool have_goal_;
+
+  //Servs
+
+  rclcpp::Service<std_srvs::srv::Trigger>::SharedPtr srv_start_state_machine_;
+
+  //Subs
+  
+  rclcpp::Subscription<std_msgs::msg::Bool>::ConstSharedPtr sub_have_goal_;
+
+  //pub
+
+  rclcpp_lifecycle::LifecyclePublisher<geometry_msgs::msg::Pose>::SharedPtr pub_goto_;
+  rclcpp_lifecycle::LifecyclePublisher<std_msgs::msg::Bool>::SharedPtr pub_have_goal_;
+
+  //Clt
+
+  rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_arm_;
+  rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_land_;
+  rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_takeoff_;
 };
 }
 
