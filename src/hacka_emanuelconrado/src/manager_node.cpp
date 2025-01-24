@@ -88,6 +88,7 @@ void ManagerNode::configClients(){
   clt_arm_ = create_client<std_srvs::srv::Trigger>("/uav1/arm");
   clt_land_ = create_client<std_srvs::srv::Trigger>("uav1/land");
   clt_takeoff_ = create_client<std_srvs::srv::Trigger>("uav1/takeoff");
+  clt_disarm_ = create_client<std_srvs::srv::Trigger>("uav1/disarm");
 }
 
 void ManagerNode::configServices() {
@@ -122,6 +123,7 @@ void ManagerNode::stateTriggerRequest([[maybe_unused]]const std::shared_ptr<std_
 
     RCLCPP_INFO(get_logger(), "Drone pousando");
     clt_land_->async_send_request(request, callback_result);
+    clt_disarm_->async_send_request(request, callback_result);
 
   }else RCLCPP_INFO(get_logger(), "Drone não ativado");
 

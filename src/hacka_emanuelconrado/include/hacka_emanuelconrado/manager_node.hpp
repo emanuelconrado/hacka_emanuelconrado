@@ -81,6 +81,7 @@ private:
   rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_arm_;
   rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_land_;
   rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_takeoff_;
+  rclcpp::Client<std_srvs::srv::Trigger>::SharedPtr clt_disarm_;
 };
 }
 
