@@ -150,6 +150,11 @@ void ManagerNode::getNextPose(){
   goto_pos_.position.y = _waypoints_points_[start_point + 1];
   goto_pos_.position.z = _waypoints_points_[start_point + 2];
 
+  std::cout << "Ponto: " << _waypoints_qty_points_ << std::endl;
+  std::cout <<"x: " << _waypoints_points_[start_point] << std::endl;
+  std::cout <<"y: " << _waypoints_points_[start_point + 1] << std::endl;
+  std::cout <<"z: " << _waypoints_points_[start_point+ 2] << std::endl;
+
   _waypoints_qty_points_--;
 }
 
