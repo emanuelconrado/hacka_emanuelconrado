@@ -54,6 +54,10 @@ private:
   void getNextPose();
   void goingTo();
 
+  //Timers
+
+  rclcpp::TimerBase::SharedPtr tmr_goingto_;
+
   //Variables
 
   double _rate_state_machine_;

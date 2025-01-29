@@ -102,32 +102,7 @@ void ManagerNode::stateTriggerRequest([[maybe_unused]]const std::shared_ptr<std_
   response->success = true;
   response->message = "State Machine started";
 
-  if(have_goal_){
-    auto request = std::make_shared<std_srvs::srv::Trigger::Request>();
-    auto callback_result = [this](rclcpp::Client<std_srvs::srv::Trigger>::SharedFuture future) -> void{
-        RCLCPP_INFO(get_logger(), "%s", future.get()->message.c_str());
-    };
-
-    clt_arm_->async_send_request(request, callback_result);
-  
-    seconds timer_(5);
-    auto inicio = steady_clock::now();
-    
-    while(duration_cast<seconds>(steady_clock::now() - inicio) < timer_){
-        if(!have_goal_){
-          takeoff();
-          return;
-        }
-    }
-
-
-    RCLCPP_INFO(get_logger(), "Drone pousando");
-    clt_land_->async_send_request(request, callback_result);
-    clt_disarm_->async_send_request(request, callback_result);
-
-  }else RCLCPP_INFO(get_logger(), "Drone não ativado");
-
-  
+  takeoff();
 }
 
 void ManagerNode::takeoff(){
@@ -136,42 +111,34 @@ void ManagerNode::takeoff(){
       RCLCPP_INFO(get_logger(), "%s", future.get()->message.c_str());
   };
 
-  clt_takeoff_->async_send_request(request,callback_result);
+  clt_takeoff_->async_send_request(request, callback_result);
 
-  seconds timer_(5);
-  auto inicio = steady_clock::now();
-
-  while (duration_cast<seconds>(steady_clock::now() - inicio) < timer_){
-          if(!have_goal_){
-             goingTo();
-          }
-  }
+  tmr_goingto_ = create_wall_timer(std::chrono::duration<double>(1.0/_rate_state_machine_), std::bind(&ManagerNode::goingTo, this), nullptr);
 }
 
 void ManagerNode::goingTo(){
-  while(true){
-    getNextPose();
-    pub_goto_->publish(goto_pos_);
+    if(!have_goal_){
+      if(_waypoints_qty_points_ == 0){
+        auto request = std::make_shared<std_srvs::srv::Trigger::Request>();
+        auto callback_result = [this](rclcpp::Client<std_srvs::srv::Trigger>::SharedFuture future) -> void{
+          RCLCPP_INFO(get_logger(), "%s", future.get()->message.c_str());
+        };
+        
+        clt_land_->async_send_request(request, callback_result);
+        clt_disarm_->async_send_request(request, callback_result);
 
-    seconds timer_(5);
-    auto inicio = steady_clock::now();
-
-    while(duration_cast<seconds>(steady_clock::now() - inicio) < timer_){
-      if(!have_goal_){
-        break;
+        _waypoints_qty_points_--;
+        return;
       }
-    }
 
-    if(have_goal_){
-      break;
-    }
+      if(_waypoints_qty_points_ == -1){
+        return;
+      }
 
-    if(_waypoints_qty_points_ == 0){
-      break;
+      getNextPose();
+      pub_goto_->publish(goto_pos_);
     }
-
   }
-}
 
 void ManagerNode::subOpHaveGoal(std_msgs::msg::Bool have_goal){
   have_goal_ = have_goal.data;
