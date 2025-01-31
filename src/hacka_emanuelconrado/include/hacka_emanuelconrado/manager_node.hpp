@@ -53,6 +53,7 @@ private:
   void takeoff();
   void getNextPose();
   void goingTo();
+  void trace();
 
   //Timers
 
@@ -64,6 +65,7 @@ private:
   int _waypoints_qty_points_;
   std::vector<double> _waypoints_points_;
   geometry_msgs::msg::Pose goto_pos_;
+  std:: string trace_;
 
   bool have_goal_;
 

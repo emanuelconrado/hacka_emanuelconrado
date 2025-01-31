@@ -1,0 +1,2 @@
+Invoking command in '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado -- -j4 -l4
+Invoked command in '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado -- -j4 -l4

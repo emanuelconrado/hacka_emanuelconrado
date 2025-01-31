@@ -144,6 +144,17 @@ void ManagerNode::subOpHaveGoal(std_msgs::msg::Bool have_goal){
   have_goal_ = have_goal.data;
 }
 
+void ManagerNode::trace(){
+  if(trace_ == "tri"){
+    declare_parameter<std::vector<double>>("waypoints.points_tri", std::vector<double>{2.0, 1.0, 1.5, 0.0, 2.0, 1.5, 0.0, 0.0, 1.5});
+    get_parameter("waypoints.points_tri", _waypoints_points_);
+  }
+
+  if(trace_ == "trape"){
+    declare_parameter<std::vector<double>>("waypoints.points_trape", std::vector<double>{});
+  }
+}
+
 void ManagerNode::getNextPose(){
   int start_point = _waypoints_points_.size() - (_waypoints_qty_points_ * 3);
   goto_pos_.position.x = _waypoints_points_[start_point];

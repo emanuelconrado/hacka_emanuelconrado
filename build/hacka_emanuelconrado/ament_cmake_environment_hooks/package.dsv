@@ -1,0 +1,4 @@
+source;share/hacka_emanuelconrado/local_setup.bash
+source;share/hacka_emanuelconrado/local_setup.dsv
+source;share/hacka_emanuelconrado/local_setup.sh
+source;share/hacka_emanuelconrado/local_setup.zsh

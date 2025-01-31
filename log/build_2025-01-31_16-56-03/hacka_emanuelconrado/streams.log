@@ -1,0 +1,104 @@
+[0.097s] Invoking command in '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado -DCMAKE_INSTALL_PREFIX=/home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado
+[1.127s] -- The C compiler identification is GNU 9.5.0
+[1.701s] -- The CXX compiler identification is GNU 9.5.0
+[1.779s] -- Detecting C compiler ABI info
+[1.980s] -- Detecting C compiler ABI info - done
+[1.988s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.988s] -- Detecting C compile features
+[2.017s] -- Detecting C compile features - done
+[2.022s] -- Detecting CXX compiler ABI info
+[2.154s] -- Detecting CXX compiler ABI info - done
+[2.162s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.162s] -- Detecting CXX compile features
+[2.163s] -- Detecting CXX compile features - done
+[2.216s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.528s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.835s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.062s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.077s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.091s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.124s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.343s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.349s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.745s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.795s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.941s] -- Looking for pthread.h
+[4.157s] -- Looking for pthread.h - found
+[4.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.265s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.267s] -- Found Threads: TRUE  
+[4.474s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.508s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.549s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.606s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.696s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[4.735s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.869s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.870s] -- Configured cppcheck include dirs: /home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/include;/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/include
+[4.870s] -- Configured cppcheck exclude dirs and/or files: 
+[4.870s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.871s] -- Added test 'lint_cmake' to check CMake code style
+[4.872s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.874s] -- Added test 'uncrustify' to check C / C++ code style
+[4.874s] -- Configured uncrustify additional arguments: 
+[4.874s] -- Added test 'xmllint' to check XML markup files
+[4.899s] -- Configuring done
+[4.946s] -- Generating done
+[4.952s] -- Build files have been written to: /home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado
+[4.964s] Invoked command in '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado -DCMAKE_INSTALL_PREFIX=/home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado
+[4.966s] Invoking command in '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado -- -j4 -l4
+[5.031s] [ 25%] [32mBuilding CXX object CMakeFiles/calculator_core.dir/src/manager_node.cpp.o[0m
+[9.544s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:[m[K In function ‘[01m[Kvoid manager_node_cpp::trace()[m[K’:
+[9.544s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:148:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrace[m[K’?
+[9.544s]   148 |   if([01;31m[Ktrace_[m[K == "tri"){
+[9.544s]       |      [01;31m[K^~~~~~[m[K
+[9.545s]       |      [32m[Ktrace[m[K
+[9.547s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:149:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter[m[K’ was not declared in this scope
+[9.548s]   149 |     [01;31m[Kdeclare_parameter[m[K<std::vector<double>>("waypoints.points_tri", std::vector<double>{2.0, 1.0, 1.5, 0.0, 2.0, 1.5, 0.0, 0.0, 1.5};
+[9.548s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[9.548s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:149:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[9.548s]   149 | re_parameter<std::vector<double[01;31m[K>>[m[K("waypoints.points_tri", std::vector<double>{2.0, 1.0, 1.5, 0.0, 2.0, 1.5, 0.0, 0.0, 1.5};
+[9.548s]       |                                [01;31m[K^~[m[K
+[9.548s] 
+[9.548s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:149:44:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[9.548s]   149 | parameter<std::vector<double>>([01;35m[K"waypoints.points_tri"[m[K, std::vector<double>{2.0, 1.0, 1.5, 0.0, 2.0, 1.5, 0.0, 0.0, 1.5};
+[9.548s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.548s] 
+[9.550s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:149:132:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[9.550s]   149 | , 0.0, 2.0, 1.5, 0.0, 0.0, 1.5}[01;31m[K;[m[K
+[9.550s]       |                                [01;31m[K^[m[K
+[9.550s]       |                                [32m[K)[m[K
+[9.555s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:150:43:[m[K [01;31m[Kerror: [m[K‘[01m[K_waypoints_points_[m[K’ was not declared in this scope
+[9.555s]   150 | ameter("waypoints.points_tri", [01;31m[K_waypoints_points_[m[K);
+[9.555s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[9.555s] 
+[9.557s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:150:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_parameter[m[K’ was not declared in this scope
+[9.557s]   150 |     [01;31m[Kget_parameter[m[K("waypoints.points_tri", _waypoints_points_);
+[9.557s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[9.558s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:153:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrace[m[K’?
+[9.559s]   153 |   if([01;31m[Ktrace_[m[K == "trape"){
+[9.559s]       |      [01;31m[K^~~~~~[m[K
+[9.559s]       |      [32m[Ktrace[m[K
+[9.561s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:154:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter[m[K’ was not declared in this scope
+[9.561s]   154 |     [01;31m[Kdeclare_parameter[m[K<std::vector<double>>("waypoints.points_trape", std::vector<double>{}
+[9.561s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[9.561s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:154:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[9.562s]   154 | re_parameter<std::vector<double[01;31m[K>>[m[K("waypoints.points_trape", std::vector<double>{}
+[9.562s]       |                                [01;31m[K^~[m[K
+[9.562s] 
+[9.562s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:154:44:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+[9.562s]   154 | parameter<std::vector<double>>([01;35m[K"waypoints.points_trape"[m[K, std::vector<double>{}
+[9.562s]       |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.562s] 
+[9.562s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:154:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[9.562s]   154 |     declare_parameter<std::vector<double>>[34m[K([m[K"waypoints.points_trape", std::vector<double>{}
+[9.562s]       |                                           [34m[K~[m[K                                               [01;31m[K^[m[K
+[9.562s]       |                                                                                           [32m[K)[m[K
+[9.562s]   155 |   [32m[K}[m[K
+[9.562s]       |   [32m[K~[m[K                                                                                        
+[12.436s] gmake[2]: *** [CMakeFiles/calculator_core.dir/build.make:76: CMakeFiles/calculator_core.dir/src/manager_node.cpp.o] Error 1
+[12.437s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/calculator_core.dir/all] Error 2
+[12.437s] gmake: *** [Makefile:146: all] Error 2
+[12.440s] Invoked command in '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado -- -j4 -l4

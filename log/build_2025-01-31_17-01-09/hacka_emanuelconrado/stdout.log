@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target calculator_core[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/calculator_core.dir/src/manager_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libcalculator_core.so[0m
+[ 50%] Built target calculator_core
+[ 75%] [32mBuilding CXX object CMakeFiles/manager_node.dir/src/manager_node_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable manager_node[0m
+[100%] Built target manager_node
+-- Install configuration: ""
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/lib/libcalculator_core.so
+-- Set runtime path of "/home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/lib/libcalculator_core.so" to ""
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/lib/hacka_emanuelconrado/manager_node
+-- Set runtime path of "/home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/lib/hacka_emanuelconrado/manager_node" to ""
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/include/
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/include//hacka_emanuelconrado
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/include//hacka_emanuelconrado/manager_node.hpp
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/launch
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/launch/hacka_emanuelconrado.py
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/params
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/params/waypoint.yaml
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/ament_index/resource_index/package_run_dependencies/hacka_emanuelconrado
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/ament_index/resource_index/parent_prefix_path/hacka_emanuelconrado
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/environment/ament_prefix_path.sh
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/environment/ament_prefix_path.dsv
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/environment/path.sh
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/environment/path.dsv
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/local_setup.bash
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/local_setup.sh
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/local_setup.zsh
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/local_setup.dsv
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/package.dsv
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/ament_index/resource_index/packages/hacka_emanuelconrado
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/ament_index/resource_index/rclcpp_components/hacka_emanuelconrado
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/cmake/hacka_emanuelconradoConfig.cmake
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/cmake/hacka_emanuelconradoConfig-version.cmake
+-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/package.xml

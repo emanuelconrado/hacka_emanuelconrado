@@ -1,0 +1,11 @@
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/uninstall.dir
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/hacka_emanuelconrado_uninstall.dir
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/manager_node.dir
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/calculator_core.dir
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/test.dir
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/edit_cache.dir
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/rebuild_cache.dir
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/list_install_components.dir
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/install.dir
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/install/local.dir
+/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado/CMakeFiles/install/strip.dir

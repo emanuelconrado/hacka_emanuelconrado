@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target calculator_core[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/calculator_core.dir/src/manager_node.cpp.o[0m
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:[m[K In member function ‘[01m[Kvoid manager_node_cpp::ManagerNode::trace()[m[K’:
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:148:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrace[m[K’?
+  148 |   if([01;31m[Ktrace_[m[K == "tri"){
+      |      [01;31m[K^~~~~~[m[K
+      |      [32m[Ktrace[m[K
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:149:132:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  149 | , 0.0, 2.0, 1.5, 0.0, 0.0, 1.5}[01;31m[K;[m[K
+      |                                [01;31m[K^[m[K
+      |                                [32m[K)[m[K
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:153:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrace[m[K’?
+  153 |   if([01;31m[Ktrace_[m[K == "trape"){
+      |      [01;31m[K^~~~~~[m[K
+      |      [32m[Ktrace[m[K
+gmake[2]: *** [CMakeFiles/calculator_core.dir/build.make:76: CMakeFiles/calculator_core.dir/src/manager_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/calculator_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado -- -j4 -l4
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target calculator_core[0m
+[0.092s] [ 25%] [32mBuilding CXX object CMakeFiles/calculator_core.dir/src/manager_node.cpp.o[0m
+[2.399s] In file included from [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:1[m[K:
+[2.399s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/include/hacka_emanuelconrado/manager_node.hpp:68:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ does not name a type; did you mean ‘[01m[Kstdin[m[K’?
+[2.399s]    68 |   [01;31m[Kstring[m[K trace_;
+[2.399s]       |   [01;31m[K^~~~~~[m[K
+[2.399s]       |   [32m[Kstdin[m[K
+[2.543s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:[m[K In member function ‘[01m[Kvoid manager_node_cpp::ManagerNode::trace()[m[K’:
+[2.544s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:148:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrace[m[K’?
+[2.544s]   148 |   if([01;31m[Ktrace_[m[K == "tri"){
+[2.544s]       |      [01;31m[K^~~~~~[m[K
+[2.544s]       |      [32m[Ktrace[m[K
+[2.545s] [01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:153:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrace[m[K’?
+[2.546s]   153 |   if([01;31m[Ktrace_[m[K == "trape"){
+[2.546s]       |      [01;31m[K^~~~~~[m[K
+[2.546s]       |      [32m[Ktrace[m[K
+[5.383s] gmake[2]: *** [CMakeFiles/calculator_core.dir/build.make:76: CMakeFiles/calculator_core.dir/src/manager_node.cpp.o] Error 1
+[5.384s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/calculator_core.dir/all] Error 2
+[5.384s] gmake: *** [Makefile:146: all] Error 2
+[5.387s] Invoked command in '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado -- -j4 -l4

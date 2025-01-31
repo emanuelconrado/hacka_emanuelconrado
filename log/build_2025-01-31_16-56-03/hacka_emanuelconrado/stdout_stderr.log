@@ -1,0 +1,100 @@
+-- The C compiler identification is GNU 9.5.0
+-- The CXX compiler identification is GNU 9.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/include;/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado
+[ 25%] [32mBuilding CXX object CMakeFiles/calculator_core.dir/src/manager_node.cpp.o[0m
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:[m[K In function ‘[01m[Kvoid manager_node_cpp::trace()[m[K’:
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:148:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrace[m[K’?
+  148 |   if([01;31m[Ktrace_[m[K == "tri"){
+      |      [01;31m[K^~~~~~[m[K
+      |      [32m[Ktrace[m[K
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:149:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter[m[K’ was not declared in this scope
+  149 |     [01;31m[Kdeclare_parameter[m[K<std::vector<double>>("waypoints.points_tri", std::vector<double>{2.0, 1.0, 1.5, 0.0, 2.0, 1.5, 0.0, 0.0, 1.5};
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:149:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  149 | re_parameter<std::vector<double[01;31m[K>>[m[K("waypoints.points_tri", std::vector<double>{2.0, 1.0, 1.5, 0.0, 2.0, 1.5, 0.0, 0.0, 1.5};
+      |                                [01;31m[K^~[m[K
+
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:149:44:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+  149 | parameter<std::vector<double>>([01;35m[K"waypoints.points_tri"[m[K, std::vector<double>{2.0, 1.0, 1.5, 0.0, 2.0, 1.5, 0.0, 0.0, 1.5};
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:149:132:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  149 | , 0.0, 2.0, 1.5, 0.0, 0.0, 1.5}[01;31m[K;[m[K
+      |                                [01;31m[K^[m[K
+      |                                [32m[K)[m[K
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:150:43:[m[K [01;31m[Kerror: [m[K‘[01m[K_waypoints_points_[m[K’ was not declared in this scope
+  150 | ameter("waypoints.points_tri", [01;31m[K_waypoints_points_[m[K);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:150:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_parameter[m[K’ was not declared in this scope
+  150 |     [01;31m[Kget_parameter[m[K("waypoints.points_tri", _waypoints_points_);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:153:6:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrace_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrace[m[K’?
+  153 |   if([01;31m[Ktrace_[m[K == "trape"){
+      |      [01;31m[K^~~~~~[m[K
+      |      [32m[Ktrace[m[K
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:154:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdeclare_parameter[m[K’ was not declared in this scope
+  154 |     [01;31m[Kdeclare_parameter[m[K<std::vector<double>>("waypoints.points_trape", std::vector<double>{}
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:154:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  154 | re_parameter<std::vector<double[01;31m[K>>[m[K("waypoints.points_trape", std::vector<double>{}
+      |                                [01;31m[K^~[m[K
+
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:154:44:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K-Wunused-value[m[K]
+  154 | parameter<std::vector<double>>([01;35m[K"waypoints.points_trape"[m[K, std::vector<double>{}
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado/src/manager_node.cpp:154:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+  154 |     declare_parameter<std::vector<double>>[34m[K([m[K"waypoints.points_trape", std::vector<double>{}
+      |                                           [34m[K~[m[K                                               [01;31m[K^[m[K
+      |                                                                                           [32m[K)[m[K
+  155 |   [32m[K}[m[K
+      |   [32m[K~[m[K                                                                                        
+gmake[2]: *** [CMakeFiles/calculator_core.dir/build.make:76: CMakeFiles/calculator_core.dir/src/manager_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/calculator_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

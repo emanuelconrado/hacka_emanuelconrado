@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000749] (hacka_emanuelconrado) JobQueued: {'identifier': 'hacka_emanuelconrado', 'dependencies': OrderedDict()}
+[0.000901] (hacka_emanuelconrado) JobStarted: {'identifier': 'hacka_emanuelconrado'}
+[0.011072] (hacka_emanuelconrado) JobProgress: {'identifier': 'hacka_emanuelconrado', 'progress': 'cmake'}
+[0.011786] (hacka_emanuelconrado) JobProgress: {'identifier': 'hacka_emanuelconrado', 'progress': 'build'}
+[0.012559] (hacka_emanuelconrado) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado', '--', '-j4', '-l4'], 'cwd': '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('TMUX', '/tmp/tmux-1000/default,164789,1'), ('TMUX_BIN', '/usr/bin/tmux'), ('_fzf_orig_completion_cd', 'complete -o nospace -F %s cd #_cd'), ('_fzf_orig_completion_sed', 'complete -F %s sed #_longopt'), ('LANGUAGE', 'en_US'), ('USER', 'lab-robotica'), ('_fzf_orig_completion_tee', 'complete -F %s tee #_longopt'), ('XDG_SEAT', 'seat0'), ('ROS_PACKAGE_PATH', '/home/lab-robotica/laser_uav_system_ws/install/realsense_gazebo_plugin/share'), ('XDG_SESSION_TYPE', 'x11'), ('FZF_DEFAULT_OPTS', '--height 25%'), ('GIT_PATH', '/home/lab-robotica/git'), ('SHLVL', '2'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/home/lab-robotica/laser_uav_system_ws/install/realsense_gazebo_plugin/lib:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera/lib:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera_msgs/lib:/home/lab-robotica/laser_uav_system_ws/install/laser_uav_px4_api/lib:/home/lab-robotica/laser_uav_system_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/lab-robotica'), ('OLDPWD', '/home/lab-robotica/git_conrado'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'i3'), ('_fzf_orig_completion_less', 'complete -F %s less #_longopt'), ('_fzf_orig_completion_awk', 'complete -F %s awk #_longopt'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_LOG_LEVEL', '30'), ('_fzf_orig_completion_head', 'complete -F %s head #_longopt'), ('_fzf_orig_completion_ld', 'complete -F %s ld #_longopt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'rxvt-xpm'), ('_fzf_orig_completion_uniq', 'complete -F %s uniq #_longopt'), ('_fzf_orig_completion_cp', 'complete -F %s cp #_longopt'), ('COLCON_PREFIX_PATH', '/home/lab-robotica/laser_uav_system_ws/install:/home/lab-robotica/workspace/install'), ('ATHAME_SHOW_MODE', '0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('_fzf_orig_completion_ftp', 'complete -F %s ftp #_known_hosts'), ('LOGNAME', 'lab-robotica'), ('WINDOWID', '52428810'), ('_fzf_orig_completion_diff', 'complete -F %s diff #_longopt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/lab-robotica/laser_uav_system_ws/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/lab-robotica/laser_uav_system_ws/install/realsense_gazebo_plugin/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', 'default;default'), ('TERM', 'rxvt-unicode-256color'), ('XDG_SESSION_ID', 'c2'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('_fzf_orig_completion_du', 'complete -F %s du #_longopt'), ('ROS_LOCALHOST_ONLY', '0'), ('_fzf_orig_completion_ln', 'complete -F %s ln #_longopt'), ('PROFILES', 'COLORSCHEME_DARK'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('_fzf_orig_completion_wc', 'complete -F %s wc #_longopt'), ('PATH', '/home/lab-robotica/.local/bin:/opt/ros/humble/bin:/home/lab-robotica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lab-robotica/git/linux-setup/submodules/fzf/bin:/home/lab-robotica/git/linux-setup/submodules/fzf/bin'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('DESKTOP_STARTUP_ID', 'i3/urxvt/1332-11-labrobotica-OptiPlex-3040_TIME5814700'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('_fzf_orig_completion_sort', 'complete -F %s sort #_longopt'), ('_fzf_orig_completion_rm', 'complete -F %s rm #_longopt'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/lab-robotica/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('_fzf_orig_completion_telnet', 'complete -F %s telnet #_known_hosts'), ('_fzf_orig_completion_ls', 'complete -F %s ls #_longopt'), ('TERM_PROGRAM', 'tmux'), ('is_vim', "ps -o state= -o comm= -t '#{pane_tty}'     | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"), ('ROS_DOMAIN_ID', '98'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/lab-robotica'), ('AMENT_PREFIX_PATH', '/home/lab-robotica/laser_uav_system_ws/install/realsense2_description:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera_msgs:/home/lab-robotica/laser_uav_system_ws/install/laser_uav_px4_api:/home/lab-robotica/laser_uav_system_ws/install/px4_msgs:/home/lab-robotica/laser_uav_system_ws/install/laser_uav_simulation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('_fzf_orig_completion_mv', 'complete -F %s mv #_longopt'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CTAGS_FILE_ONCE', '~/tags-once'), ('ATHAME_ENABLED', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('_fzf_orig_completion_rmdir', 'complete -F %s rmdir #_longopt'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('_fzf_orig_completion_tail', 'complete -F %s tail #_longopt'), ('PWD', '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado'), ('FZF_DEFAULT_COMMAND', 'ag -l -f --nocolor -g ""'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'ibus'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('ATHAME_VIM_PERSIST', '0'), ('PYTHONPATH', '/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/lab-robotica/laser_uav_system_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.1332'), ('_fzf_orig_completion_cat', 'complete -F %s cat #_longopt'), ('RUN_TMUX', 'true'), ('COLCON', '1'), ('ATHAME_SHOW_ERROR', '0'), ('_fzf_orig_completion_grep', 'complete -F %s grep #_longopt'), ('TMUX_PANE', '%1'), ('EDITOR', "/usr/bin/vim --servername dog --cmd 'let g:user_mode=1'"), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/lab-robotica/laser_uav_system_ws/install/realsense_gazebo_plugin:/home/lab-robotica/laser_uav_system_ws/install/realsense2_description:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera_msgs:/home/lab-robotica/laser_uav_system_ws/install/laser_uav_px4_api:/home/lab-robotica/laser_uav_system_ws/install/px4_msgs:/home/lab-robotica/laser_uav_system_ws/install/laser_uav_simulation'), ('_fzf_orig_completion_pushd', 'complete -o nospace -F %s pushd #_cd')]), 'shell': False}
+[0.075100] (hacka_emanuelconrado) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target calculator_core\x1b[0m\n'}
+[0.097874] (hacka_emanuelconrado) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/calculator_core.dir/src/manager_node.cpp.o\x1b[0m\n'}
+[0.099498] (-) TimerEvent: {}
+[0.199764] (-) TimerEvent: {}
+[0.300092] (-) TimerEvent: {}
+[0.400423] (-) TimerEvent: {}
+[0.500758] (-) TimerEvent: {}
+[0.601101] (-) TimerEvent: {}
+[0.701410] (-) TimerEvent: {}
+[0.801718] (-) TimerEvent: {}
+[0.902097] (-) TimerEvent: {}
+[1.002472] (-) TimerEvent: {}
+[1.102762] (-) TimerEvent: {}
+[1.203162] (-) TimerEvent: {}
+[1.303489] (-) TimerEvent: {}
+[1.403814] (-) TimerEvent: {}
+[1.504167] (-) TimerEvent: {}
+[1.604492] (-) TimerEvent: {}
+[1.704817] (-) TimerEvent: {}
+[1.805180] (-) TimerEvent: {}
+[1.905474] (-) TimerEvent: {}
+[2.005785] (-) TimerEvent: {}
+[2.106071] (-) TimerEvent: {}
+[2.206401] (-) TimerEvent: {}
+[2.306685] (-) TimerEvent: {}
+[2.407031] (-) TimerEvent: {}
+[2.507349] (-) TimerEvent: {}
+[2.607653] (-) TimerEvent: {}
+[2.707996] (-) TimerEvent: {}
+[2.808332] (-) TimerEvent: {}
+[2.908648] (-) TimerEvent: {}
+[3.008952] (-) TimerEvent: {}
+[3.109272] (-) TimerEvent: {}
+[3.209596] (-) TimerEvent: {}
+[3.309929] (-) TimerEvent: {}
+[3.410272] (-) TimerEvent: {}
+[3.510585] (-) TimerEvent: {}
+[3.610908] (-) TimerEvent: {}
+[3.711283] (-) TimerEvent: {}
+[3.811612] (-) TimerEvent: {}
+[3.911940] (-) TimerEvent: {}
+[4.012285] (-) TimerEvent: {}
+[4.112625] (-) TimerEvent: {}
+[4.212933] (-) TimerEvent: {}
+[4.313244] (-) TimerEvent: {}
+[4.413585] (-) TimerEvent: {}
+[4.513899] (-) TimerEvent: {}
+[4.614280] (-) TimerEvent: {}
+[4.714588] (-) TimerEvent: {}
+[4.814923] (-) TimerEvent: {}
+[4.915258] (-) TimerEvent: {}
+[5.015657] (-) TimerEvent: {}
+[5.116054] (-) TimerEvent: {}
+[5.216357] (-) TimerEvent: {}
+[5.316667] (-) TimerEvent: {}
+[5.417037] (-) TimerEvent: {}
+[5.517355] (-) TimerEvent: {}
+[5.617669] (-) TimerEvent: {}
+[5.718072] (-) TimerEvent: {}
+[5.818382] (-) TimerEvent: {}
+[5.918694] (-) TimerEvent: {}
+[6.019078] (-) TimerEvent: {}
+[6.119370] (-) TimerEvent: {}
+[6.219687] (-) TimerEvent: {}
+[6.320024] (-) TimerEvent: {}
+[6.420337] (-) TimerEvent: {}
+[6.520676] (-) TimerEvent: {}
+[6.621011] (-) TimerEvent: {}
+[6.721309] (-) TimerEvent: {}
+[6.821609] (-) TimerEvent: {}
+[6.921913] (-) TimerEvent: {}
+[7.022266] (-) TimerEvent: {}
+[7.122581] (-) TimerEvent: {}
+[7.222894] (-) TimerEvent: {}
+[7.323197] (-) TimerEvent: {}
+[7.423497] (-) TimerEvent: {}
+[7.523813] (-) TimerEvent: {}
+[7.624153] (-) TimerEvent: {}
+[7.724479] (-) TimerEvent: {}
+[7.824794] (-) TimerEvent: {}
+[7.925140] (-) TimerEvent: {}
+[8.025428] (-) TimerEvent: {}
+[8.125742] (-) TimerEvent: {}
+[8.226096] (-) TimerEvent: {}
+[8.326388] (-) TimerEvent: {}
+[8.426720] (-) TimerEvent: {}
+[8.527038] (-) TimerEvent: {}
+[8.627335] (-) TimerEvent: {}
+[8.727620] (-) TimerEvent: {}
+[8.827921] (-) TimerEvent: {}
+[8.928297] (-) TimerEvent: {}
+[9.028614] (-) TimerEvent: {}
+[9.128928] (-) TimerEvent: {}
+[9.229311] (-) TimerEvent: {}
+[9.329638] (-) TimerEvent: {}
+[9.429988] (-) TimerEvent: {}
+[9.530336] (-) TimerEvent: {}
+[9.630663] (-) TimerEvent: {}
+[9.731133] (-) TimerEvent: {}
+[9.831620] (-) TimerEvent: {}
+[9.931922] (-) TimerEvent: {}
+[10.032298] (-) TimerEvent: {}
+[10.132638] (-) TimerEvent: {}
+[10.233015] (-) TimerEvent: {}
+[10.333341] (-) TimerEvent: {}
+[10.433650] (-) TimerEvent: {}
+[10.534029] (-) TimerEvent: {}
+[10.634368] (-) TimerEvent: {}
+[10.684506] (hacka_emanuelconrado) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libcalculator_core.so\x1b[0m\n'}
+[10.734513] (-) TimerEvent: {}
+[10.834844] (-) TimerEvent: {}
+[10.935420] (-) TimerEvent: {}
+[11.035789] (-) TimerEvent: {}
+[11.136102] (-) TimerEvent: {}
+[11.236537] (-) TimerEvent: {}
+[11.336913] (-) TimerEvent: {}
+[11.437205] (-) TimerEvent: {}
+[11.537577] (-) TimerEvent: {}
+[11.637874] (-) TimerEvent: {}
+[11.738220] (-) TimerEvent: {}
+[11.838555] (-) TimerEvent: {}
+[11.938874] (-) TimerEvent: {}
+[11.975784] (hacka_emanuelconrado) StdoutLine: {'line': b'[ 50%] Built target calculator_core\n'}
+[12.002734] (hacka_emanuelconrado) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/manager_node.dir/src/manager_node_main.cpp.o\x1b[0m\n'}
+[12.039045] (-) TimerEvent: {}
+[12.139345] (-) TimerEvent: {}
+[12.239645] (-) TimerEvent: {}
+[12.339950] (-) TimerEvent: {}
+[12.440335] (-) TimerEvent: {}
+[12.540655] (-) TimerEvent: {}
+[12.641008] (-) TimerEvent: {}
+[12.741351] (-) TimerEvent: {}
+[12.841654] (-) TimerEvent: {}
+[12.942027] (-) TimerEvent: {}
+[13.042342] (-) TimerEvent: {}
+[13.142684] (-) TimerEvent: {}
+[13.243035] (-) TimerEvent: {}
+[13.343372] (-) TimerEvent: {}
+[13.443669] (-) TimerEvent: {}
+[13.544029] (-) TimerEvent: {}
+[13.644343] (-) TimerEvent: {}
+[13.744656] (-) TimerEvent: {}
+[13.844996] (-) TimerEvent: {}
+[13.945326] (-) TimerEvent: {}
+[14.045631] (-) TimerEvent: {}
+[14.145954] (-) TimerEvent: {}
+[14.246300] (-) TimerEvent: {}
+[14.346607] (-) TimerEvent: {}
+[14.446916] (-) TimerEvent: {}
+[14.547272] (-) TimerEvent: {}
+[14.647588] (-) TimerEvent: {}
+[14.747894] (-) TimerEvent: {}
+[14.848252] (-) TimerEvent: {}
+[14.925162] (hacka_emanuelconrado) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable manager_node\x1b[0m\n'}
+[14.948382] (-) TimerEvent: {}
+[15.048708] (-) TimerEvent: {}
+[15.149101] (-) TimerEvent: {}
+[15.249466] (-) TimerEvent: {}
+[15.276633] (hacka_emanuelconrado) StdoutLine: {'line': b'[100%] Built target manager_node\n'}
+[15.290663] (hacka_emanuelconrado) CommandEnded: {'returncode': 0}
+[15.291468] (hacka_emanuelconrado) JobProgress: {'identifier': 'hacka_emanuelconrado', 'progress': 'install'}
+[15.303326] (hacka_emanuelconrado) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado'], 'cwd': '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHONWARNINGS', 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources'), ('TMUX', '/tmp/tmux-1000/default,164789,1'), ('TMUX_BIN', '/usr/bin/tmux'), ('_fzf_orig_completion_cd', 'complete -o nospace -F %s cd #_cd'), ('_fzf_orig_completion_sed', 'complete -F %s sed #_longopt'), ('LANGUAGE', 'en_US'), ('USER', 'lab-robotica'), ('_fzf_orig_completion_tee', 'complete -F %s tee #_longopt'), ('XDG_SEAT', 'seat0'), ('ROS_PACKAGE_PATH', '/home/lab-robotica/laser_uav_system_ws/install/realsense_gazebo_plugin/share'), ('XDG_SESSION_TYPE', 'x11'), ('FZF_DEFAULT_OPTS', '--height 25%'), ('GIT_PATH', '/home/lab-robotica/git'), ('SHLVL', '2'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}] [{time}] [{name}]: {message} ({function_name}() at {file_name}:{line_number})'), ('LD_LIBRARY_PATH', '/home/lab-robotica/laser_uav_system_ws/install/realsense_gazebo_plugin/lib:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera/lib:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera_msgs/lib:/home/lab-robotica/laser_uav_system_ws/install/laser_uav_px4_api/lib:/home/lab-robotica/laser_uav_system_ws/install/px4_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/lab-robotica'), ('OLDPWD', '/home/lab-robotica/git_conrado'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'i3'), ('_fzf_orig_completion_less', 'complete -F %s less #_longopt'), ('_fzf_orig_completion_awk', 'complete -F %s awk #_longopt'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('COLCON_LOG_LEVEL', '30'), ('_fzf_orig_completion_head', 'complete -F %s head #_longopt'), ('_fzf_orig_completion_ld', 'complete -F %s ld #_longopt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'rxvt-xpm'), ('_fzf_orig_completion_uniq', 'complete -F %s uniq #_longopt'), ('_fzf_orig_completion_cp', 'complete -F %s cp #_longopt'), ('COLCON_PREFIX_PATH', '/home/lab-robotica/laser_uav_system_ws/install:/home/lab-robotica/workspace/install'), ('ATHAME_SHOW_MODE', '0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('_fzf_orig_completion_ftp', 'complete -F %s ftp #_known_hosts'), ('LOGNAME', 'lab-robotica'), ('WINDOWID', '52428810'), ('_fzf_orig_completion_diff', 'complete -F %s diff #_longopt'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/lab-robotica/laser_uav_system_ws/install/realsense_gazebo_plugin/lib/x86_64-linux-gnu/pkgconfig:/home/lab-robotica/laser_uav_system_ws/install/realsense_gazebo_plugin/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', 'default;default'), ('TERM', 'rxvt-unicode-256color'), ('XDG_SESSION_ID', 'c2'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('_fzf_orig_completion_du', 'complete -F %s du #_longopt'), ('ROS_LOCALHOST_ONLY', '0'), ('_fzf_orig_completion_ln', 'complete -F %s ln #_longopt'), ('PROFILES', 'COLORSCHEME_DARK'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('_fzf_orig_completion_wc', 'complete -F %s wc #_longopt'), ('PATH', '/home/lab-robotica/.local/bin:/opt/ros/humble/bin:/home/lab-robotica/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lab-robotica/git/linux-setup/submodules/fzf/bin:/home/lab-robotica/git/linux-setup/submodules/fzf/bin'), ('GDM_LANG', 'en_US'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('DESKTOP_STARTUP_ID', 'i3/urxvt/1332-11-labrobotica-OptiPlex-3040_TIME5814700'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'i3'), ('_fzf_orig_completion_sort', 'complete -F %s sort #_longopt'), ('_fzf_orig_completion_rm', 'complete -F %s rm #_longopt'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'i3'), ('XAUTHORITY', '/home/lab-robotica/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('_fzf_orig_completion_telnet', 'complete -F %s telnet #_known_hosts'), ('_fzf_orig_completion_ls', 'complete -F %s ls #_longopt'), ('TERM_PROGRAM', 'tmux'), ('is_vim', "ps -o state= -o comm= -t '#{pane_tty}'     | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"), ('ROS_DOMAIN_ID', '98'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/lab-robotica'), ('AMENT_PREFIX_PATH', '/home/lab-robotica/laser_uav_system_ws/install/realsense2_description:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera_msgs:/home/lab-robotica/laser_uav_system_ws/install/laser_uav_px4_api:/home/lab-robotica/laser_uav_system_ws/install/px4_msgs:/home/lab-robotica/laser_uav_system_ws/install/laser_uav_simulation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'i3'), ('_fzf_orig_completion_mv', 'complete -F %s mv #_longopt'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CTAGS_FILE_ONCE', '~/tags-once'), ('ATHAME_ENABLED', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('_fzf_orig_completion_rmdir', 'complete -F %s rmdir #_longopt'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '7'), ('_fzf_orig_completion_tail', 'complete -F %s tail #_longopt'), ('PWD', '/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado'), ('FZF_DEFAULT_COMMAND', 'ag -l -f --nocolor -g ""'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-i3:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'ibus'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/i3:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('ATHAME_VIM_PERSIST', '0'), ('PYTHONPATH', '/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/lab-robotica/laser_uav_system_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('I3SOCK', '/run/user/1000/i3/ipc-socket.1332'), ('_fzf_orig_completion_cat', 'complete -F %s cat #_longopt'), ('RUN_TMUX', 'true'), ('COLCON', '1'), ('ATHAME_SHOW_ERROR', '0'), ('_fzf_orig_completion_grep', 'complete -F %s grep #_longopt'), ('TMUX_PANE', '%1'), ('EDITOR', "/usr/bin/vim --servername dog --cmd 'let g:user_mode=1'"), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/lab-robotica/laser_uav_system_ws/install/realsense_gazebo_plugin:/home/lab-robotica/laser_uav_system_ws/install/realsense2_description:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera:/home/lab-robotica/laser_uav_system_ws/install/realsense2_camera_msgs:/home/lab-robotica/laser_uav_system_ws/install/laser_uav_px4_api:/home/lab-robotica/laser_uav_system_ws/install/px4_msgs:/home/lab-robotica/laser_uav_system_ws/install/laser_uav_simulation'), ('_fzf_orig_completion_pushd', 'complete -o nospace -F %s pushd #_cd')]), 'shell': False}
+[15.313272] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.313598] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/lib/libcalculator_core.so\n'}
+[15.322668] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Set runtime path of "/home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/lib/libcalculator_core.so" to ""\n'}
+[15.323081] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/lib/hacka_emanuelconrado/manager_node\n'}
+[15.323706] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Set runtime path of "/home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/lib/hacka_emanuelconrado/manager_node" to ""\n'}
+[15.323886] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/include/\n'}
+[15.324141] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/include//hacka_emanuelconrado\n'}
+[15.324388] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/include//hacka_emanuelconrado/manager_node.hpp\n'}
+[15.324630] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/launch\n'}
+[15.324728] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/launch/hacka_emanuelconrado.py\n'}
+[15.324795] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/params\n'}
+[15.324884] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/params/waypoint.yaml\n'}
+[15.324978] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/ament_index/resource_index/package_run_dependencies/hacka_emanuelconrado\n'}
+[15.325244] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/ament_index/resource_index/parent_prefix_path/hacka_emanuelconrado\n'}
+[15.325443] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/environment/ament_prefix_path.sh\n'}
+[15.325674] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/environment/ament_prefix_path.dsv\n'}
+[15.325858] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/environment/path.sh\n'}
+[15.326104] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/environment/path.dsv\n'}
+[15.326382] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/local_setup.bash\n'}
+[15.326637] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/local_setup.sh\n'}
+[15.326789] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/local_setup.zsh\n'}
+[15.326929] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/local_setup.dsv\n'}
+[15.327138] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/package.dsv\n'}
+[15.327391] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/ament_index/resource_index/packages/hacka_emanuelconrado\n'}
+[15.327640] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/ament_index/resource_index/rclcpp_components/hacka_emanuelconrado\n'}
+[15.327919] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.328219] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.328484] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/cmake/hacka_emanuelconradoConfig.cmake\n'}
+[15.328728] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/cmake/hacka_emanuelconradoConfig-version.cmake\n'}
+[15.328893] (hacka_emanuelconrado) StdoutLine: {'line': b'-- Installing: /home/lab-robotica/git_conrado/hacka_emanuelconrado/install/hacka_emanuelconrado/share/hacka_emanuelconrado/package.xml\n'}
+[15.330823] (hacka_emanuelconrado) CommandEnded: {'returncode': 0}
+[15.349842] (-) TimerEvent: {}
+[15.381585] (hacka_emanuelconrado) JobEnded: {'identifier': 'hacka_emanuelconrado', 'rc': 0}
+[15.382295] (-) EventReactorShutdown: {}

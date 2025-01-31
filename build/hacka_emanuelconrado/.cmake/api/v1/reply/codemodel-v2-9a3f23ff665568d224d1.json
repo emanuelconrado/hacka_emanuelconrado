@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9f3f4aad1aa5563e7652.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hacka_emanuelconrado",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "calculator_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calculator_core-e06f3dba34a4e248978c.json",
+					"name" : "calculator_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hacka_emanuelconrado_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hacka_emanuelconrado_uninstall-e1a05f9819e5974b1065.json",
+					"name" : "hacka_emanuelconrado_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "manager_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-manager_node-2564d24898494b1ec68d.json",
+					"name" : "manager_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1474bf14bedd3c76157a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lab-robotica/git_conrado/hacka_emanuelconrado/build/hacka_emanuelconrado",
+		"source" : "/home/lab-robotica/git_conrado/hacka_emanuelconrado/src/hacka_emanuelconrado"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
